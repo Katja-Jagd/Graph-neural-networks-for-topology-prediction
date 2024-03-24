@@ -105,12 +105,6 @@ class GearNetDataset(Dataset):
                 ##protein.pos = protein.alpha_carbon(cache="ca")
 
                 # All edges, Radius, KNN  (maybe sequential later)
-                """
-                For test with SchNet
-                #protein.x = protein.residue_type
-                #protein.edge_index = protein.edges("knn_16")
-                #protein.batch = protein.coords
-                """
                 ##eps = protein.edges("eps_10")
                 ##knn = protein.edges("knn_10")
                 ##protein.edge_index = torch.cat((eps, knn), dim=1)  
