@@ -166,7 +166,7 @@ cython_debug/
 **/pretrained_models/
 
 # bash scripts for job submissions
-.sh
+scripts/*.sh
 
 # weights and biases 
 **/wandb/
