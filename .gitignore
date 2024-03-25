@@ -172,8 +172,8 @@ scripts/*.sh
 **/wandb/
 
 # output and error files
-.err
-.out 
+scripts/*.err
+scripts/*.out 
 
 
 
